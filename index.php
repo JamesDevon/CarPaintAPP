@@ -14,7 +14,7 @@
 
   <title>CarPaint - Home Page</title>
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -75,11 +75,12 @@
       </div>
     </div>
   </div>
+
   <!-- JavaScript -->
-  <script src="./jsFunctions.js">
+  <script src="jsFunctions.js">
 </script>
-  <script src="./jquery/jquery.slim.min.js"></script>
-  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/jquery/jquery.slim.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -3,9 +3,9 @@
     class Cars{
 
         private $cars;
-
+        //constructor
         function __construct(){
-            $this->cars = json_decode(file_get_contents("https://carpaint.herokuapp.com/brands"),true);
+            $this->cars = json_decode(file_get_contents("https://carpaint-api.herokuapp.com/brands"),true);
         }
         
 
@@ -125,7 +125,7 @@
         private $colors;
 
         function __construct(){
-            $this->colors = json_decode(file_get_contents("https://carpaint.herokuapp.com/colors"),true);
+            $this->colors = json_decode(file_get_contents("https://carpaint-api.herokuapp.com/colors"),true);
         }
 
         function getColors($ids){
